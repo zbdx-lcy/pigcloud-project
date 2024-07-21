@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "myitem": "../../components/myitem/myitem"
+  }
+}

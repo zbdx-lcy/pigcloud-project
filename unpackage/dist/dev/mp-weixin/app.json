@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/login_register/login_register",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/demo/demo",
+    "pages/demo2/demo2",
+    "pages/demo3/demo3",
+    "pages/login_register/register"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": " #000000",
+    "selectedColor": "#d446d4",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/myfunction3.png",
+        "selectedIconPath": ""
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "/static/myfunction4.png",
+        "selectedIconPath": ""
+      }
+    ]
+  },
+  "usingComponents": {}
+}

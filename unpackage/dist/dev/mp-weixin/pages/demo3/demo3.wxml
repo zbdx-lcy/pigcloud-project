@@ -1,0 +1,1 @@
+<view><view class="btn"><button bindtap="{{a}}">确认删除</button></view></view>

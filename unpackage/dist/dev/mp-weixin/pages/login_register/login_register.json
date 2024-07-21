@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "title1": "../../components/title1/title1"
+  }
+}

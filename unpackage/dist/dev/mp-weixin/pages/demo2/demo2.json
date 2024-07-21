@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "demo2",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "myevent": "../../components/myevent/myevent"
+  }
+}

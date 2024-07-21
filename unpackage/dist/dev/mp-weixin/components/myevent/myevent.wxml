@@ -1,0 +1,1 @@
+<view> 子组件给父组件传参 <input type="text" placeholder="请输入" bindinput="{{a}}"></input><view class="{{[b && 'box']}}"></view><button bindtap="{{c}}">打开</button></view>

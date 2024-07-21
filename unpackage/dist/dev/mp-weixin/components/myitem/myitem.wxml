@@ -1,0 +1,1 @@
+<view class="my"><view class="title">{{a}}</view><view class="subtitle">{{b}}</view><view class="time">{{c}}</view><view class="obj">{{d}}</view></view>

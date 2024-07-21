@@ -1,0 +1,1 @@
+<view> 父组件 <myevent wx:if="{{c}}" bindmyeve="{{a}}" bindmybtn="{{b}}" u-i="b5c2b2c0-0" bind:__l="__l" u-p="{{c}}"></myevent><button bindtap="{{d}}">关闭</button></view>

@@ -1,0 +1,184 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login_register/login_register",
+			"style": {
+				"navigationBarTitleText": "登录" ,
+				"navigationBarTextStyle": "black"
+				
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"   ,//小程序名字
+				"navigationBarTextStyle": "black"
+				
+			}
+		},
+		{
+			"path" : "pages/my/my",
+			"style" : 
+			{
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/login_register/register",
+			"style" : 
+			{
+				"navigationBarTitleText" : "注册",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/mainpage/mainpage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "首页",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/pigmanage/pigmanage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "猪场管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/AI/AI",
+			"style" : 
+			{
+				"navigationBarTitleText" : "AI咨询",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/pigmanage/addPig",
+			"style" : 
+			{
+				"navigationBarTitleText" : "添加猪场信息",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/livePigMage/livePigMage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "生猪管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/video/video",
+			"style" : 
+			{
+				"navigationBarTitleText" : "实时视频",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/livePigMage/addLivePig",
+			"style" : 
+			{
+				"navigationBarTitleText" : "添加生猪信息",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/moneyMage/moneyMage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "财务信息",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/moneyMage/addMoneyMage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "添加财务信息",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/materialMage/materialMage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "物料信息",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/materialMage/addMaterial",
+			"style" : 
+			{
+				"navigationBarTitleText" : "添加物料信息",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/testai/testai",
+			"style" : 
+			{
+				"navigationBarTitleText" : "testai",
+				"enablePullDownRefresh" : false
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#3478F6",
+		"backgroundColor": "#3478F6"
+	},
+
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": " #000000",
+		"selectedColor": "#1296db",
+		"backgroundColor": "#ffffff",
+		"fontSize": "13px",
+		"height": "65rpx",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/mainpage/mainpage",
+				"iconPath": "/static/shouye.png",
+				"selectedIconPath": "/static/shouyel.png"
+			},
+			{
+				"text": "猪场管理",
+				"pagePath": "pages/pigmanage/pigmanage",
+				"iconPath": "/static/gwc.png",
+				"selectedIconPath": "/static/gwcl.png"
+			},
+			{
+				"text": "AI咨询",
+				"pagePath": "pages/AI/AI",
+				"iconPath": "/static/zx.png",
+				"selectedIconPath": "/static/zxl.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/my/my",
+				"iconPath": "/static/wd.png",
+				"selectedIconPath": "/static/wdl.png"
+			}
+		]
+		
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
